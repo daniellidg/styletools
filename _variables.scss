@@ -1,0 +1,76 @@
+$colors: (
+  --blue: #007bff,
+  --indigo: #6610f2,
+  --purple: #6f42c1,
+  --pink: #e83e8c,
+  --red: #dc3545,
+  --orange: #fd7e14,
+  --yellow: #ffc107,
+  --green: #28a745,
+  --teal: #20c997,
+  --cyan: #17a2b8,
+  --white: #fff,
+  --gray: #6c757d,
+  --gray-dark: #343a40,
+  --primary: #007bff,
+  --secondary: #6c757d,
+  --success: #28a745,
+  --info: #17a2b8,
+  --warning: #ffc107,
+  --danger: #dc3545,
+  --light: #f8f9fa,
+  --dark: #343a40,
+);
+
+// width/height
+$whSize: (
+  25: 25%,
+  50: 50%,
+  75: 75%,
+  100: 100%,
+  auto: auto,
+);
+
+$sizes: (
+  0: 0,
+  1: .25rem,
+  2: .5rem,
+  3: 1rem,
+  4: 1.5rem,
+  5: 2rem,
+  6: 4rem,
+);
+
+$directions: (
+  t: top,
+  r: right,
+  b: bottom,
+  l: left
+);
+
+$spaceTypes: (
+  m: margin,
+  p: padding
+);
+
+$displayType: (
+  none,
+  inline,
+  block,
+  inline-block,
+  table,
+  table-row,
+  table-cell,
+  flex,
+  inline-flex,
+);
+
+$flexDirection: (
+  start: flex-start,
+  end: flex-end,
+  center: center,
+  between: space-between,
+  around: space-around,
+  baseline: baseline,
+  stretch: stretch,
+);
